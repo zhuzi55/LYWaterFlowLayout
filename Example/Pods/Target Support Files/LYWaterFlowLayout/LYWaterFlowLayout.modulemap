@@ -1,0 +1,6 @@
+framework module LYWaterFlowLayout {
+  umbrella header "LYWaterFlowLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

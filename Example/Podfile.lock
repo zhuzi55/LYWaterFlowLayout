@@ -1,0 +1,16 @@
+PODS:
+  - LYWaterFlowLayout (0.1.0)
+
+DEPENDENCIES:
+  - LYWaterFlowLayout (from `../`)
+
+EXTERNAL SOURCES:
+  LYWaterFlowLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYWaterFlowLayout: b3026bcb6d7fdbe51dd4aef48096441fe29ef900
+
+PODFILE CHECKSUM: bc1212803bcf38b2828d84a9fe07eaacbd62d74a
+
+COCOAPODS: 1.11.2
