@@ -42,9 +42,9 @@
 		0F6085B2AA602D4C483412A83724B858 /* LYWaterFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYWaterFlowLayout.h; path = LYWaterFlowLayout/Classes/LYWaterFlowLayout.h; sourceTree = "<group>"; };
 		131EF2FF946B97535DE4D79AE4CB7736 /* Pods-LYWaterFlowLayout_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LYWaterFlowLayout_Example"; path = Pods_LYWaterFlowLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		387F2060753EA0618512BB23DFC2D6A0 /* Pods-LYWaterFlowLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYWaterFlowLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		390ED554C16C6157C8C62C7CF731ECCD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		390ED554C16C6157C8C62C7CF731ECCD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3CDE451DE64063598DCCED8B53CDC50C /* LYWaterFlowLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYWaterFlowLayout-Info.plist"; sourceTree = "<group>"; };
-		42E9DE25C4BB126FD31C55F7651781F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		42E9DE25C4BB126FD31C55F7651781F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4AC5028F9A0BF9AE5B61DF5FC0F82E6C /* Pods-LYWaterFlowLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYWaterFlowLayout_Example-umbrella.h"; sourceTree = "<group>"; };
 		4AECD5760E213FEA620C9CCEA068290F /* Pods-LYWaterFlowLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYWaterFlowLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5004A30C177632F7101639A60AFB1156 /* Pods-LYWaterFlowLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYWaterFlowLayout_Example-Info.plist"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		850BEAC246A9F0D3773C0EB01CD072E5 /* Pods-LYWaterFlowLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYWaterFlowLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
 		864CF347A77EF4D922BD014A233F83C5 /* Pods-LYWaterFlowLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYWaterFlowLayout_Example.modulemap"; sourceTree = "<group>"; };
 		91739F7B17A5ADCBBF6E8E69D59B86BE /* LYWaterFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYWaterFlowLayout.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BED9901F2FDD284436C467C6C4365C0D /* LYWaterFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYWaterFlowLayout-dummy.m"; sourceTree = "<group>"; };
 		C35CA9959E2F33D733B491D59B7138A6 /* Pods-LYWaterFlowLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYWaterFlowLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E29DB9592AAF5D2240B77C2A4294A126 /* Pods-LYWaterFlowLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYWaterFlowLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		E97FA415A3256EA402B6F675D2CD6215 /* LYWateFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYWateFlowLayout.m; path = LYWaterFlowLayout/Classes/LYWateFlowLayout.m; sourceTree = "<group>"; };
 		EEEC91057AC16C213584BBCA59FBBF6F /* Pods-LYWaterFlowLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYWaterFlowLayout_Tests.modulemap"; sourceTree = "<group>"; };
 		F4A6A3DF68B384545164155FB67C6808 /* Pods-LYWaterFlowLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYWaterFlowLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FA87E7D23BD2458860FCB3CE5430289A /* LYWaterFlowLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LYWaterFlowLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA87E7D23BD2458860FCB3CE5430289A /* LYWaterFlowLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LYWaterFlowLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC2DA99AA48E469705F31DF5054EC765 /* LYWaterFlowLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYWaterFlowLayout; path = LYWaterFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -532,8 +532,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

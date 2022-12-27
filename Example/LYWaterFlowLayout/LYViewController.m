@@ -12,6 +12,8 @@
 #import "LYCollectionViewCell.h"
 #import "LYWaterFlowLayout.h"
 
+static NSString *cellIndentifier = @"cellIndentifier";
+
 @interface LYViewController ()<UICollectionViewDelegate, UICollectionViewDataSource,LYWaterFlowLayoutDelegate>
 
 @property (nonatomic, strong) UICollectionView *collectionView;
@@ -21,8 +23,7 @@
 
 @implementation LYViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
     
     [self configData];
@@ -35,7 +36,7 @@
     
     // 瀑布流
     self.datas = [NSMutableArray array];
-    for (int i = 0; i < 15; i++) {
+    for (int i = 0; i < 25; i++) {
         LYItemModel *itemModel = [[LYItemModel alloc] init];
         itemModel.title = [NSString stringWithFormat:@"测试标题%d", i];
         itemModel.itemSizeScale = i%3 + 0.5; // item比例
@@ -56,7 +57,7 @@
     self.collectionView.backgroundColor = [UIColor whiteColor];
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
-    [self.collectionView registerClass:[LYCollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
+    [self.collectionView registerClass:[LYCollectionViewCell class] forCellWithReuseIdentifier:cellIndentifier];
     [self.view addSubview:self.collectionView];
 
 
@@ -66,7 +67,7 @@
     return self.datas.count;
 }
 -(__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
-    LYCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    LYCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIndentifier forIndexPath:indexPath];
     LYItemModel *itemModel = self.datas[indexPath.row];
     cell.backgroundColor = [UIColor yellowColor];
     cell.titleLable.text = itemModel.title;

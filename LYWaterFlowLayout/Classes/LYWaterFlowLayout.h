@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  这个代理方法用于在viewcontroller中通过Width来计算高度
  *
  *  @param Flow      flowlayout
- *  @param width     图片的宽
+ *  @param width     item的宽
  *  @param indexPath indexPath
  *
  *  @return 图片的高
