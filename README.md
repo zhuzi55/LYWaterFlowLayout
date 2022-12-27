@@ -84,5 +84,9 @@ rm ~/Library/Caches/CocoaPods/search_index.json
 
 ```
 
+<hr>
+
+##### 如对您有帮助，还请star一下。
+
 
 
