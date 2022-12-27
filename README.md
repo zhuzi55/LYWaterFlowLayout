@@ -6,7 +6,7 @@
 
 ## 使用方式
 
-可以通过pod导入，也可以下载demo后把LYSafeKeyboard文件夹导入。
+可以通过pod导入，也可以下载demo后把LYWaterFlowLayout文件夹导入。
 
 ```
 pod 'LYWaterFlowLayout', '~> 0.0.2'
